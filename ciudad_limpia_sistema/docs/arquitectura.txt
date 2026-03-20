@@ -1,0 +1,23 @@
+
+Arquitectura del Sistema
+
+Frontend
+- HTML
+- CSS
+- JavaScript
+
+Backend
+- Laravel API REST
+
+Base de Datos
+- PostgreSQL
+
+Módulos
+1. Gestión de contenedores
+2. Gestión de camiones
+3. Optimización de rutas
+4. Reportes ciudadanos
+5. Dashboard analítico
+
+Arquitectura sugerida:
+Cliente -> API Laravel -> PostgreSQL

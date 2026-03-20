@@ -1,0 +1,30 @@
+[2026-03-16 15:58:58] [ERROR] LLM 调用产生异常
+com.github.bboygf.over_code.llm.LLMException: 未配置模型，请先在设置中配置并激活一个模型
+	at com.github.bboygf.over_code.llm.LLMService.chatStream(LLMService.kt:116)
+	at com.github.bboygf.over_code.ui.home.HomeViewModel.processChatTurn(HomeViewModel.kt:689)
+	at com.github.bboygf.over_code.ui.home.HomeViewModel.access$processChatTurn(HomeViewModel.kt:41)
+	at com.github.bboygf.over_code.ui.home.HomeViewModel$processChatTurn$1.invokeSuspend(HomeViewModel.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.internal.SoftLimitedDispatcher$Worker.run(SoftLimitedDispatcher.kt:130)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:610)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1188)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:775)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:762)
+
+[2026-03-16 15:59:24] [ERROR] LLM 调用产生异常
+com.github.bboygf.over_code.llm.LLMException: 未配置模型，请先在设置中配置并激活一个模型
+	at com.github.bboygf.over_code.llm.LLMService.chatStream(LLMService.kt:116)
+	at com.github.bboygf.over_code.ui.home.HomeViewModel.processChatTurn(HomeViewModel.kt:689)
+	at com.github.bboygf.over_code.ui.home.HomeViewModel.access$processChatTurn(HomeViewModel.kt:41)
+	at com.github.bboygf.over_code.ui.home.HomeViewModel$processChatTurn$1.invokeSuspend(HomeViewModel.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.internal.SoftLimitedDispatcher$Worker.run(SoftLimitedDispatcher.kt:130)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:610)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1188)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:775)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:762)
+

@@ -1,0 +1,27 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    public function up(): void
+    {
+        Schema::create('camiones', function (Blueprint $table) {
+            $table->id();
+            $table->string('placa')->unique();
+            $table->string('conductor');
+            $table->string('estado')->default('disponible'); // disponible, en_ruta, mantenimiento
+            $table->integer('capacidad'); // en kilogramos
+            $table->double('latitud', 10, 7)->nullable();
+            $table->double('longitud', 10, 7)->nullable();
+            $table->timestamps();
+        });
+    }
+
+    public function down(): void
+    {
+        Schema::dropIfExists('camiones');
+    }
+};
